@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{ ... }}
+    <title>Ankit Gupta - Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Include header -->
+    <nav>
+        <div class="nav-content">
+            <div class="logo">AG</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Include hero -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm Ankit Gupta</h1>
+            <p class="typing-text">I am a ...</p>
+            <div class="social-links">
+                <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Include about -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="profile-image">
+                <img src="profile.jpg" alt="Ankit Gupta">
+            </div>
+            <div class="about-text">
+                <p>Hi there! I'm a passionate developer and problem solver. I love creating innovative solutions and building amazing applications.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Include projects -->
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Project 1</h3>
+                <p>Description of project 1</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <p>Description of project 2</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 3</h3>
+                <p>Description of project 3</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Include contact -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Include footer -->
+    <footer>
+        <p>&copy; 2025 Ankit Gupta. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
